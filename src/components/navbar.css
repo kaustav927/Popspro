@@ -1,0 +1,138 @@
+
+/*
+@font-face{
+    font-family:'VarelaRound' ;
+    src: local("VarelaRound"), url('../assets/fonts/VarelaRound-Regular.ttf') format('truetype');
+  }
+  */
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  
+  
+  html, body { margin: 0; padding: 0 }
+  
+  .navbar > .active {
+    border-bottom: 1px solid#edf5e1 ;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  #footer{
+    background-image: linear-gradient(white,blue);
+    min-height: 30vh;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .nav{
+    width:100%;
+    transition:1s;
+    justify-content: center;
+  }
+  
+  .scrolled{
+    position: fixed;
+    background-color:black;
+    opacity:0.85;
+  }
+  
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+  }
+  
+  .disabled {
+    overflow-x: hidden;
+    overflow-y: scroll; 
+  }
+  
+  .background {
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+  }
+  .NameButton{
+    background-color:transparent !important;
+    
+  }
+  
+  .navbar-hamburger{
+    color:#edf5e1 !important;
+  }
+  
+  .navText{
+    color:#edf5e1 !important;
+    font-family: 'VarelaRound' !important;
+    font-size: larger;
+    margin:5px;
+  }
+  
+  .projectHeader{
+    color:#05386b !important;
+    font-family: 'VarelaRound' !important;
+    font-size: 50px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  
+  .aTag{
+    text-decoration: none !important;
+  
+  }
+  
+  .Abutton {
+    transition-duration: 0.4s !important;
+    color: #2E4C80 !important;
+    border-color:  #edf5e1!important;
+    background-color: #edf5e1 !important;
+    text-decoration: none !important;
+    font-family: "VarelaRound";
+    font-size: larger;
+    margin:5px;
+    
+  }
+  
+  .button:hover {
+    background-color:#edf5e1!important; /* Green */
+    color: #2E4C80  !important;
+    text-decoration: none !important;
+  
+  }
+  
+  

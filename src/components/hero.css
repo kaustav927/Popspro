@@ -1,0 +1,80 @@
+
+
+
+@font-face{
+    font-family:'VarelaRound' ;
+    src: local("VarelaRound"), url(../assets/Fonts/VarelaRound-Regular.ttf) format('truetype');
+  }
+
+
+
+
+
+.jumbotron {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   /* width: 100%;*/
+}
+
+.marginBottom{
+    margin-bottom: 30px;
+}
+.padding{
+    padding-top: 20vh;
+}
+
+.font_color{
+ color: #edf5e1;
+
+}
+.TitleFormat{
+    font-family:'VarelaRound' !important;
+    align-content: center !important;
+    font-size: 50px;
+    font-weight: 12;
+    margin-top: 30vh!important;
+
+}
+
+.SubtitleFont{
+    font-family: 'Marker' !important;
+    align-content: center !important;
+    font-size: 40px;
+}
+
+.text{
+    font-family: 'VarelaRound' !important;
+    align-content: center !important;
+    font-size: 30px;
+    color: #8ee4af;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #2E4C80;
+    background-color: cutom-color;
+    border-color: #2E4C80;
+    border-color: cutom-cor;
+    padding-top: 5vh;
+}
+
+.button {
+    /*transition-duration: 0.4s !important;*/
+    color: #edf5e1 !important;
+    border-color:  #edf5e1!important;
+    text-decoration: none;
+    /* background-color: #edf5e1!important;*/
+  }
+  
+  .button:hover {
+    background-color:#edf5e1!important; /* Green */
+    color: #2E4C80  !important;
+  }
+
+  .aTag{
+    text-decoration: none;
+  }
