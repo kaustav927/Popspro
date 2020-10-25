@@ -2,6 +2,7 @@ import React from 'react';
 
 import Form from 'react-bootstrap/Form';
 import Button from '@material-ui/core/Button';
+import {Map, GoogleApiWrapper, Marker} from 'google-maps-react';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
@@ -68,6 +69,10 @@ class ContactPage extends React.Component {
 
 
     render() {
+        {/*const mapStyles ={
+            width: '50%',
+            height: '50%',
+        };*/}
         return(
             <div id="contact">
                 <Hero title={this.props.title} />
@@ -102,6 +107,15 @@ class ContactPage extends React.Component {
                     </Form>
                     
                 </Content>
+                
+                {/*<Map
+                    google={this.props.google}
+                    zoom={14}
+                    style={mapStyles}
+                    initialCenter={{lat: 43.61, lng: -79.53}}
+                >
+                    <Marker position={{lat: 43.614104, lng: -79.537418}} />
+                </Map>*/}
             </div>
         );
     }
@@ -109,3 +123,6 @@ class ContactPage extends React.Component {
 }
 
 export default ContactPage;
+{/*export default GoogleApiWrapper({
+    apiKey: 'AIzaSyCyRIKWLheViZjAlODXH0OkHMSPTFUexPk'
+})(ContactPage);*/}
