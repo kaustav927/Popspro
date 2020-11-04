@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
@@ -24,4 +24,4 @@ function AboutPage(props) {
 
 }
 
-export default AboutPage;
+export default AboutPage;*/

@@ -60,7 +60,6 @@ render(){
              <NavItem className="nav-link navText nav-item navbar" href="#home" id="navText" ><Link activeClass="active"  to="/" >Home</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText"  ><Link activeClass="active" to="/projects">Projects</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText"  ><Link activeClass="active" to="/careers">Careers</Link></NavItem>
-             <NavItem className="nav-link navText nav-item navbar" id="navText"  ><Link activeClass="active" to="/about" >About</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText" ><Link activeClass="active" to="/contact">Contact</Link></NavItem>
            </Nav>
          </Navbar.Collapse>

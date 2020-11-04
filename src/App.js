@@ -104,7 +104,6 @@ componentWillUnmount(){
 
                 <NavItem className="nav-link navText nav-item navbar" id="navText"><Link to="/projects">Projects</Link></NavItem>
                 <NavItem className="nav-link navText nav-item navbar" id="navText"><Link to="/careers">Careers</Link></NavItem>
-                <NavItem className="nav-link navText nav-item navbar" id="navText"><Link to="/about" >About</Link></NavItem>
                 <NavItem className="nav-link navText nav-item navbar" id="navText"><Link to="/contact">Contact</Link></NavItem>
 
                 
